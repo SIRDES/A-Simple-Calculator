@@ -1,0 +1,66 @@
+body{
+    margin: 30px;
+    padding: 0px;
+    background-color: rgba(49, 49, 49,0.3);
+    box-sizing: border-box;
+    transition: ease-in-out, width .45s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cal{
+    position: absolute;
+    width: 348px;
+    height: 355px;
+    padding: 4px;
+    border: 1px solid rgba(229, 226, 226);
+    margin-top: 200px;
+    background-color: #efecee;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.6);
+
+}
+#screen{
+    width: 330px;
+    height: 45px;
+    font-size: 25px;
+    color: black;
+    border: none;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.btn{
+    width: 55px;
+    height: 65px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0.5px gray solid;
+    background-color: rgba(0, 0,0,0.1);
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(136, 136, 136);
+}
+#Clear{
+    background-color: rgba(211, 120, 15,0.3);
+    outline: none;
+}
+#Clear:hover{
+    background-color: rgba(211, 120, 15,0.9);
+}
+#eq{
+    width: 120px;
+}
+.num:hover{
+    background-color: gray;
+}
+.sign:hover{
+    background-color:#2a4f77;
+    color: #ffffff;
+}
